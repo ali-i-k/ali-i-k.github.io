@@ -1,0 +1,45 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: url(https://wallpapercrafter.com/th800/246595-a-half-closed-macbook-laptop-computer-without-inte.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{ 
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  flex-direction: column;
+  align-items: stretch;
+
+}
+
+h1{s
+  text-align: center;
+  color: white;
+  
+}
+.buffer{
+ 
+  height: 8rem;
+}
+
+hr{
+  border-color: orangered;
+  border-width: 3px;
+  max-width: 65px;
+
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  background-color: orangered;
+} 
+.btn-warning:hover{
+  background-color: skyblue;
+  border-color: skyblue;
+  border-width: 4px;
+}
